@@ -41,5 +41,8 @@ botoAfegir.addEventListener("click", function(){
 })
 
 //8 - Eliminació: Fes que un element desaparegui en fer-li clic usant el mètode remove().
-
-
+let elementEliminar = document.getElementById("element-eliminar")
+elementEliminar.addEventListener("click", function(){ 
+    elementEliminar.remove()
+    
+})
