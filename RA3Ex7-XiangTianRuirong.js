@@ -31,3 +31,12 @@ botoAlerta.addEventListener("click", function(){
     alert("Hola! Has fet clic al boto.")
 })
 
+//7 - Estructura: Crea un nou <li> amb createElement i afegeix-lo a una <ul> amb appendChild.
+let botoAfegir = document.getElementById("boto-afegir")
+let llista = document.getElementById("llista-compra")
+botoAfegir.addEventListener("click", function(){
+    let nouItem = document.createElement("li")
+    nouItem.textContent = "Nou producte"
+    llista.appendChild(nouItem)
+})
+
