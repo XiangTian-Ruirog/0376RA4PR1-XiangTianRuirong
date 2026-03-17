@@ -25,3 +25,9 @@ botoToggle.addEventListener("click", function(){
     textClasse.classList.toggle("actiu")
 })
 
+//6 - Esdeveniments: Afegeix un addEventListener a un botó perquè tregui una alerta (alert).
+let botoAlerta = document.getElementById("boto-alerta")
+botoAlerta.addEventListener("click", function(){
+    alert("Hola! Has fet clic al boto.")
+})
+
