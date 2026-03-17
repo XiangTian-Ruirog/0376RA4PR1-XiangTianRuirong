@@ -12,3 +12,9 @@ p.textContent="Hola Món"
 let img = document.getElementById("imatge-canviant")
 img.setAttribute("src", "https://albertonate.com/wp-content/uploads/2022/10/Logo-ILBclaim.png")
 
+//4 - Estils: Canvia el color de fons (backgroundColor) d'un element en fer-li clic.
+let caixa = document.getElementById("caixa-estil")
+caixa.addEventListener("click", function(){
+    caixa.style.backgroundColor = "#56d661"
+})
+
