@@ -18,3 +18,10 @@ caixa.addEventListener("click", function(){
     caixa.style.backgroundColor = "#56d661"
 })
 
+//5 - Classes: Crea un botó que afegeixi/tregui la classe 'actiu' amb classList.toggle.
+let botoToggle = document.getElementById("boto-toggle")
+let textClasse = document.getElementById("text-classe")
+botoToggle.addEventListener("click", function(){
+    textClasse.classList.toggle("actiu")
+})
+
